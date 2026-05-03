@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.logo {
+    width: 7.5rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 7rem;
+}
+
+body {
+  background-color: #fdfaf4;
+  background-image: radial-gradient(#c9c3b8 1px, transparent 1px);
+  background-size: 1.25rem 1.25rem;
+}
