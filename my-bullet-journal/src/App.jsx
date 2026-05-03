@@ -5,9 +5,11 @@ import heroImg from './assets/hero.png'
 import logo from './images/Designer.png'
 import './App.css'
 import Card from "./components/Card.jsx"
-
-
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Day.jsx";
+import Month from "./pages/Home.jsx";
+import Month from "./pages/Week.jsx";
+import Month from "./pages/Month.jsx";
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
     <section>
       <header className="header">
         <img src={logo} alt="Logo" className="logo"/>
-        <h1>Weekly Journal Soraya</h1>
+        <h1 className="header_h1">Soraya's Bullet Journal</h1>
       </header>
         <div className="cards-grid" >
           <Card className="card_month" title="Month" description="Check your month schedule" />
