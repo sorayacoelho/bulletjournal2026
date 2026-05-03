@@ -1,13 +1,3 @@
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 1rem;
-}
-
-.header_h1 {
-    font-style: italic;
-}
 
 .logo {
     width: 7.5rem;
@@ -25,4 +15,7 @@ body {
   background-color: #fdfaf4;
   background-image: radial-gradient(#c9c3b8 1px, transparent 1px);
   background-size: 1.25rem 1.25rem;
+  height: 100%;
+  margin: 0;
 }
+
