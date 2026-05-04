@@ -12,6 +12,12 @@ import Week from "./pages/Week.jsx";
 import Month from "./pages/Month.jsx";
 import Header from "./components/Header.jsx"
 import Footer from "./components/Footer.jsx"
+import logoFlowerDay from "./images/florDay.png"
+import logoFlowerMonth from "./images/florMonth.png"
+import logoFlowerWeek from "./images/florWeek.png"
+import {Calendar} from 'react-big-calendar'
+
+
 
 function App() {
   return (
@@ -19,9 +25,9 @@ function App() {
     <section>
       <Header />
         <div className="cards-grid" >
-          <Card className="card_month" title="Month" description="Check your month schedule" />
-          <Card className="card_week" title="Week" description="Check your week schedule" />
-          <Card className="card_day" title="Day" description="Check your day schedule" />
+          <Card className="card_month" title="Month" description="Check your month schedule" image={logoFlowerDay}/>
+          <Card className="card_week" title="Week" description="Check your week schedule" image={logoFlowerMonth}/>
+          <Card className="card_day" title="Day" description="Check your day schedule" image={logoFlowerWeek} />
         </div>
       <Footer />
     </section>
