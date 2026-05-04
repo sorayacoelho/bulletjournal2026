@@ -1,16 +1,9 @@
 
 .logo {
-    width: 7.5rem;
+    width: 7rem;
 }
 
-.cards-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
-  margin-top: 7rem;
-  font-style: italic;
- 
-}
+
 
 body {
   background-color: #fdfaf4;
